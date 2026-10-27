@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250c10e731f7d314aa73ff2b066d89a4, type: 3}
+  m_Name: Jet
+  m_EditorClassIdentifier: Assembly-CSharp::CoreDump.JetDefinition
+  displayName: Jet
+  description: Tap to dash, hold to thrust, away from where its nozzle points. Fuel refills on the ground.
+  cubes:
+  - {x: 0, y: 0, z: 0}
+  defaultButton: 4
+  material: {fileID: 2100000, guid: 7a9ef2ea2ac4cb4408464f523cd4c0e1, type: 2}
+  marking: 1
+  nozzleCube: {x: 0, y: 0, z: 0}
+  modelPrefab: {fileID: 0}
+  hits: 1
+  dashSpeed: 26
+  maxDashSpeed: 40
+  dashLock: 0.12
+  dashKeep: 0.5
+  dashCooldown: 0.35
+  dashFuel: 0.3
+  thrust: 40
+  stackFalloff: 0.8
+  maxThrust: 90
+  maxSpeed: 32
+  fuelTime: 1.2
+  flameMaterial: {fileID: 2100000, guid: de5a67acc5457734c82ce3d8200536b2, type: 2}

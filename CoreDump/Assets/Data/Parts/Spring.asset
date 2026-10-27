@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a420b3145429adb4185f20b75b20441e, type: 3}
+  m_Name: Spring
+  m_EditorClassIdentifier: Assembly-CSharp::CoreDump.SpringDefinition
+  displayName: Spring
+  description: 'Pushes off whatever its pad touches: underneath it jumps, against a wall it wall-jumps.'
+  cubes:
+  - {x: 0, y: 0, z: 0}
+  defaultButton: 3
+  material: {fileID: 2100000, guid: 17b748605858c444d814b2a4325fcc8b, type: 2}
+  marking: 1
+  nozzleCube: {x: 0, y: 0, z: 0}
+  modelPrefab: {fileID: 0}
+  hits: 1
+  jumpHeight: 3
+  stackFalloff: 0.8
+  maxJumpHeight: 12
+  reach: 0.6
+  bufferTime: 0.15
+  wallPush: 1.1
+  wallLift: 0.8

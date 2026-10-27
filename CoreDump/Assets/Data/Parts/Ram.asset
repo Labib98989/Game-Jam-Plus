@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d4e37dd77393bb4b898f89e571eeb5c, type: 3}
+  m_Name: Ram
+  m_EditorClassIdentifier: Assembly-CSharp::CoreDump.RamDefinition
+  displayName: Ram
+  description: A burst lunge toward its tip. Down in mid-air it's a butt slam, up it's a rocket jump.
+  cubes:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 2}
+  defaultButton: 4
+  material: {fileID: 2100000, guid: c38191f40bb37ab4bb5b960ae5f47c9a, type: 2}
+  marking: 1
+  nozzleCube: {x: 0, y: 0, z: 2}
+  modelPrefab: {fileID: 0}
+  hits: 1
+  lungeSpeed: 26
+  stackFalloff: 0.8
+  maxLungeSpeed: 40
+  steerLock: 0.25
+  keep: 0.6
+  groundCooldown: 0.6
+  tipDamage: 6
+  tipRadius: 0.9
+  slamRadius: 4.5
+  slamDamage: 4
+  slamKnockback: 14
+  shockwaveMaterial: {fileID: 2100000, guid: 7e5d57502c2416040bc658bf8a93fbd9, type: 2}

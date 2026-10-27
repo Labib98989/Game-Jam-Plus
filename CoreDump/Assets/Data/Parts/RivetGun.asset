@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e29adb963d0ed8468ff8ea35aca9e0a, type: 3}
+  m_Name: RivetGun
+  m_EditorClassIdentifier: Assembly-CSharp::CoreDump.RivetGunDefinition
+  displayName: Rivet Gun
+  description: Rapid fire while held, long range, small kick. Low damage per shot.
+  cubes:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  defaultButton: 1
+  material: {fileID: 2100000, guid: c2157f359bc40994fa2fc3092ef27100, type: 2}
+  marking: 1
+  nozzleCube: {x: 0, y: 0, z: 1}
+  modelPrefab: {fileID: 0}
+  hits: 1
+  shotsPerReload: 30
+  reloadTime: 1.8
+  fireInterval: 0.08
+  automatic: 1
+  damage: 0.6
+  range: 70
+  kick: 0.8
+  forwardCone: 50
+  autoAimCone: 35
+  shotMaterial: {fileID: 2100000, guid: b449147025ec7084ab318619f0675f71, type: 2}
+  fireSound: 2
+  spreadAngle: 1.2

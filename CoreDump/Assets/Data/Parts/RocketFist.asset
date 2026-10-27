@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a337caf299455439fa72c327e96e47, type: 3}
+  m_Name: RocketFist
+  m_EditorClassIdentifier: Assembly-CSharp::CoreDump.RocketFistDefinition
+  displayName: Rocket Fist
+  description: Fires your actual fist. Reloading calls it back, smacking anything on the way.
+  cubes:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 2}
+  - {x: 0, y: 1, z: 0}
+  defaultButton: 1
+  material: {fileID: 2100000, guid: aa6d74d30f0ce4d4ea8adeb0f6d6fa36, type: 2}
+  marking: 1
+  nozzleCube: {x: 0, y: 0, z: 2}
+  modelPrefab: {fileID: 0}
+  hits: 1
+  shotsPerReload: 1
+  reloadTime: 1
+  fireInterval: 0.3
+  automatic: 0
+  damage: 14
+  range: 30
+  kick: 10
+  forwardCone: 50
+  autoAimCone: 35
+  shotMaterial: {fileID: 0}
+  fireSound: 6
+  fistSpeed: 45
+  punchForce: 20
+  returnDamage: 6
+  hangTime: 0.25

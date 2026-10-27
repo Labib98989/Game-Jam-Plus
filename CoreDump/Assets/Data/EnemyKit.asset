@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e44afd0fac888d4a88d4cf07ce68402, type: 3}
+  m_Name: EnemyKit
+  m_EditorClassIdentifier: Assembly-CSharp::CoreDump.EnemyKit
+  skin: {fileID: 2100000, guid: 89890c8fb7d66bf4f92f022344d7fb26, type: 2}
+  armor: {fileID: 2100000, guid: 1e4908b9f65314a43a55c9e66c08acd1, type: 2}
+  eye: {fileID: 2100000, guid: 23eda230c88ca9644a98b0aa99554945, type: 2}
+  shot: {fileID: 2100000, guid: e64b6065216a3b64182c346717fe359c, type: 2}
+  spawnFx: {fileID: 2100000, guid: cc0e513606499c346898480a5b6da8c3, type: 2}
+  dangerZone: {fileID: 2100000, guid: 14e65294655b2aa4aad570438ec723ac, type: 2}
+  dangerFill: {fileID: 2100000, guid: 345a009ec1a18d74c9e62af623946afd, type: 2}
+  layer: 7
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967103
+  shotMask:
+    serializedVersion: 2
+    m_Bits: 4294967167

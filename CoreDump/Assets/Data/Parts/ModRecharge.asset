@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac8fe6bb179eee45bf446e6c3ccc4b5, type: 3}
+  m_Name: ModRecharge
+  m_EditorClassIdentifier: Assembly-CSharp::CoreDump.ModDefinition
+  displayName: Recharge
+  description: Jets touching it hold more fuel and dash again sooner, and a touching Ram lunges again sooner. Mods of the same type that touch form a chain, and longer chains boost more.
+  cubes:
+  - {x: 0, y: 0, z: 0}
+  defaultButton: 0
+  material: {fileID: 2100000, guid: 191bf7a1f1261d54bb052f0b9990271a, type: 2}
+  marking: 0
+  nozzleCube: {x: 0, y: 0, z: 0}
+  modelPrefab: {fileID: 0}
+  hits: 1
+  type: 1
+  amountPerLevel: 0.3
+  chainFalloff: 0.85
+  maxLevel: 6

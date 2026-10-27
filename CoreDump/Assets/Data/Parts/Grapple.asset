@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9612a5948c03f9e44905d5f6633df64d, type: 3}
+  m_Name: Grapple
+  m_EditorClassIdentifier: Assembly-CSharp::CoreDump.GrappleDefinition
+  displayName: Grapple
+  description: Hooks the surface nearest the crosshair and pulls you there. Catches knocked-off parts.
+  cubes:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  defaultButton: 2
+  material: {fileID: 2100000, guid: 2ebe60bf2f83d95448b9c0523ddd58e0, type: 2}
+  marking: 1
+  nozzleCube: {x: 0, y: 0, z: 1}
+  modelPrefab: {fileID: 0}
+  hits: 1
+  range: 40
+  coneAngle: 18
+  pull: 80
+  stackFalloff: 0.8
+  maxPull: 160
+  maxSpeed: 40
+  releaseDistance: 2.5
+  catchSpeed: 18
+  ropeMaterial: {fileID: 2100000, guid: ab548ec562d76924fb07f7bc68c14207, type: 2}
+  markerMaterial: {fileID: 2100000, guid: 7b7447b5752a5274d98953d9fd5beb3d, type: 2}

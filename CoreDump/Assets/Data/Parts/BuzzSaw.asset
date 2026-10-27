@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd12497555a08124789cbf4346130139, type: 3}
+  m_Name: BuzzSaw
+  m_EditorClassIdentifier: Assembly-CSharp::CoreDump.BuzzSawDefinition
+  displayName: Buzz Saw
+  description: Always spinning, hurts anything it touches. No button.
+  cubes:
+  - {x: 0, y: 0, z: 0}
+  - {x: 1, y: 0, z: 0}
+  - {x: 0, y: 1, z: 0}
+  - {x: 1, y: 1, z: 0}
+  defaultButton: 0
+  material: {fileID: 2100000, guid: 73c25094ea2fe244098a6fd5b833ae20, type: 2}
+  marking: 0
+  nozzleCube: {x: 0, y: 0, z: 0}
+  modelPrefab: {fileID: 0}
+  hits: 1
+  damagePerSecond: 15
+  hitInterval: 0.2
+  spinSpeed: 900
+  bladeMaterial: {fileID: 2100000, guid: 88446eceaa357bd49b8bdfdea8e5f28b, type: 2}

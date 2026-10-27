@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8cd9354f2e0c3741ae9ce7cbe404f5f, type: 3}
+  m_Name: RocketLauncher
+  m_EditorClassIdentifier: Assembly-CSharp::CoreDump.RocketLauncherDefinition
+  displayName: Rocket Launcher
+  description: Rockets with splash damage that always fly forward. Long reload.
+  cubes:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 2}
+  defaultButton: 1
+  material: {fileID: 2100000, guid: da8519eed92d9e34583a8cc4980a9d2d, type: 2}
+  marking: 1
+  nozzleCube: {x: 0, y: 0, z: 2}
+  modelPrefab: {fileID: 0}
+  hits: 1
+  shotsPerReload: 3
+  reloadTime: 2.4
+  fireInterval: 0.45
+  automatic: 0
+  damage: 9
+  range: 80
+  kick: 5
+  forwardCone: 50
+  autoAimCone: 35
+  shotMaterial: {fileID: 2100000, guid: 93806a8e6e8f3254ebce95b549f88afe, type: 2}
+  fireSound: 3
+  rocketSpeed: 40
+  blastRadius: 4
+  blastForce: 18
+  blastMaterial: {fileID: 2100000, guid: a384a13431b93d3419f5dd2a4c9da313, type: 2}
+  homingPerLevel: 90

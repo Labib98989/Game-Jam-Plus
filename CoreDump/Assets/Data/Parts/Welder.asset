@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a644504373db2bd43af25a3888b41a99, type: 3}
+  m_Name: Welder
+  m_EditorClassIdentifier: Assembly-CSharp::CoreDump.WelderDefinition
+  displayName: Welder
+  description: Hold for a short cone of flame. Very short range.
+  cubes:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  defaultButton: 1
+  material: {fileID: 2100000, guid: 2343a8b2fcc0def4b968a97c861e9b56, type: 2}
+  marking: 1
+  nozzleCube: {x: 0, y: 0, z: 1}
+  modelPrefab: {fileID: 0}
+  hits: 1
+  shotsPerReload: 30
+  reloadTime: 2
+  fireInterval: 0.1
+  automatic: 1
+  damage: 0.8
+  range: 6
+  kick: 0.4
+  forwardCone: 50
+  autoAimCone: 35
+  shotMaterial: {fileID: 2100000, guid: de5a67acc5457734c82ce3d8200536b2, type: 2}
+  fireSound: 4
+  flameAngle: 25

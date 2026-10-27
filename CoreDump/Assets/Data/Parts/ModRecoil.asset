@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac8fe6bb179eee45bf446e6c3ccc4b5, type: 3}
+  m_Name: ModRecoil
+  m_EditorClassIdentifier: Assembly-CSharp::CoreDump.ModDefinition
+  displayName: Recoil
+  description: 'Weapons touching it kick harder: more push for recoil jumps and boosts. Mods of the same type that touch form a chain, and longer chains boost more.'
+  cubes:
+  - {x: 0, y: 0, z: 0}
+  defaultButton: 0
+  material: {fileID: 2100000, guid: 7b315e0325635d84a8a57f048aa5367a, type: 2}
+  marking: 0
+  nozzleCube: {x: 0, y: 0, z: 0}
+  modelPrefab: {fileID: 0}
+  hits: 1
+  type: 5
+  amountPerLevel: 0.4
+  chainFalloff: 0.85
+  maxLevel: 6
